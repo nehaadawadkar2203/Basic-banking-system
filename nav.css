@@ -1,0 +1,151 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    height: 90px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 5px 8px rosybrown;
+}
+
+.navbar-header {
+    font-family: 'Baskerville Old Face';
+    font-size: 25px;
+}
+
+    .navbar-header a {
+        text-decoration: none;
+        color: #660033;
+    }
+
+    .navbar-header a:hover {
+        text-decoration: none;
+        color: #660033;
+    }
+
+.logo img {
+    border-radius: 10px;
+    margin: 10px;
+    height: 50px;
+}
+
+nav .menu {
+    margin-left: auto;
+}
+
+    nav .menu li {
+        float: right;
+    }
+
+        nav .menu li a {
+            font-size: 40px;
+            line-height: 40px;
+            display: flex;
+            margin: 0px;
+            padding: 10px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #660033;
+        }
+
+            nav .menu li a:hover {
+                color: aliceblue;
+                background-color: #660033;
+                border-radius: 10px;
+            }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-dark {
+    padding: 30px 0;
+    color: aliceblue;
+    background-color: #660033;
+}
+
+    .footer-dark p {
+        color: aliceblue;
+        text-decoration: none;
+        opacity: 0.6;
+    }
+
+    .footer-dark h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .footer-dark ul {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+        .footer-dark ul a {
+            color: aliceblue;
+            text-decoration: none;
+            opacity: 0.6;
+        }
+
+            .footer-dark ul a:hover {
+                opacity: 0.8;
+            }
+
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-dark .item.text {
+        margin-bottom: 36px;
+    }
+
+        .footer-dark .item.text p {
+            opacity: 0.6;
+            margin-bottom: 0;
+        }
+
+    .footer-dark .item.social {
+        text-align: center;
+    }
+
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .footer-dark .item.social a {
+            font-size: 20px;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 8px;
+            color: aliceblue;
+            opacity: 0.75;
+        }
+
+            .footer-dark .item.social a:hover {
+                opacity: 0.9;
+            }
+
+    .footer-dark .copyright {
+        text-align: center;
+        padding-top: 24px;
+        opacity: 0.3;
+        font-size: 13px;
+        margin-bottom: 0;
+    }

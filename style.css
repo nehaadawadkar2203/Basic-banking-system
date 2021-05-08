@@ -1,0 +1,44 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.view {
+    text-align: center;
+    font-size: 30px;
+    color: #660033;
+}
+table {
+    letter-spacing: 2px;
+}
+th, td {
+    border: 1px solid #660033;
+    padding: 10px 30px;
+    text-align: center;
+    opacity: 0.9;
+}
+th{
+    font-weight: 400;
+}
+td{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+.btn {
+    color: black;
+    border: none;
+    background: #d9d9d9;
+}
+
+    .btn:hover {
+        text-decoration: none;
+        background-color: #777E8B;
+        transform: scale(1.1);
+        color: white;
+    }
+@media only screen and (orientation: portrait){
+    *{
+        letter-spacing: 2px;
+    }
+}
