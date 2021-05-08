@@ -1,5 +1,5 @@
 # GRIP: THE SPARKS FOUNDATION 
-# NAME: Neha Adawadkar
+## NAME: Neha Adawadkar
 
 ## TASK 1: Creating a basic banking system.
 ## OPERATIONS:
